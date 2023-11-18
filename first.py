@@ -18,7 +18,6 @@ def print_list_elements(my_list):
         print()  # This ensures there's a newline after the last element
 
 def get_ai_snippets_for_query(query):
-#    headers = {"X-API-Key": "5447f8dd-ba5a-406a-944a-d1ba07b0002e<__>1ODmHdETU8N2v5f4K7rDr9X0"}
     headers = {"X-API-Key": YOU_API_KEY}
     params = {"query": query,
 		"num_web_results":3}
